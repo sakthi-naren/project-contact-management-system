@@ -9,8 +9,8 @@ import view.ContactSystemUI;
 
 public class ContactManagementSystem {
 
-    ContactSystemUI uiHandler = new ContactSystemUI(); 
-    DBContactSystem db ;
+    private final ContactSystemUI uiHandler = new ContactSystemUI(); 
+    private DBContactSystem db ;
     private final String[] MENU_STRINGS = {"Display All Contacts" , "Add New Contact" , "Modify Existing Contact" , "Delete Contacts"};
     private final int MENU_STRINGS_LENGTH = MENU_STRINGS.length;
     private final String MAIN_MENU_HEADER = "Contacts Management System";
